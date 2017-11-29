@@ -8,3 +8,7 @@ C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter 5\obj\Debug\Chapter 5
 C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter 5\obj\Debug\Chapter 5.exe
 C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter 5\obj\Debug\Chapter 5.xml
 C:\Users\cs137672\AppData\Local\Temporary Projects\Chapter 5\obj\Debug\Chapter 5.pdb
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Chapter 5\bin\Debug\Chapter 5.exe.config
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Chapter 5\obj\Debug\Chapter 5.exe
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Chapter 5\obj\Debug\Chapter 5.xml
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Chapter 5\obj\Debug\Chapter 5.pdb
