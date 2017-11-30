@@ -36,6 +36,19 @@
                 End If
             Loop
 
+            ' Calculate and display the average.
+            If intNumScores > 0 Then
+                dblAverage = dblTotal / intNumScores
+                lblTotalAverage.Text = dblAverage.ToString()
+            End If
+
+        Else
+            ' Invalid number of test scores.
+            MessageBox.Show("Enter an integer value for number of test scores.")
         End If
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class
