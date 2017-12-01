@@ -1,0 +1,10 @@
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\bin\Debug\Next Loop Demo (Hat).exe.config
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\bin\Debug\Next Loop Demo (Hat).exe
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\bin\Debug\Next Loop Demo (Hat).pdb
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\bin\Debug\Next Loop Demo (Hat).xml
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\obj\Debug\Next_Loop_Demo__Hat_.Form1.resources
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\obj\Debug\Next_Loop_Demo__Hat_.Resources.resources
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\obj\Debug\Next Loop Demo (Hat).vbproj.GenerateResource.Cache
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\obj\Debug\Next Loop Demo (Hat).exe
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\obj\Debug\Next Loop Demo (Hat).xml
+C:\Users\cs137672\AppData\Local\Temporary Projects\Next Loop Demo (Hat)\obj\Debug\Next Loop Demo (Hat).pdb
