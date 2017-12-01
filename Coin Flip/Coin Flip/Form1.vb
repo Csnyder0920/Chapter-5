@@ -1,9 +1,8 @@
 ﻿Public Class Form1
-
+    Dim tailsTotal As Integer = 0
+    Dim headsTotal As Integer = 0
     Private Sub btnToss_Click(sender As Object, e As EventArgs) Handles btnToss.Click
         Dim intSideUp As Integer
-        Dim tailsTotal As Integer = 0
-        Dim headsTotal As Integer = 0
         Dim intCount As Integer
         Dim rand As New Random
 
