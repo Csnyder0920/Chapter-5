@@ -1,0 +1,11 @@
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.exe.config
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.Menu1.resources
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.Resources.resources
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbproj.GenerateResource.Cache
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.exe
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.pdb
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.xml
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.exe
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.xml
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.pdb
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmCoinFlip.resources

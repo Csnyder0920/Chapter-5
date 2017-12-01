@@ -70,7 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoinFlip.vb" />
+    <Compile Include="CoinFlip1.Designer.vb">
+      <DependentUpon>CoinFlip1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CoinFlip1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Menu1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +100,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CoinFlip1.resx">
+      <DependentUpon>CoinFlip1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu1.resx">
       <DependentUpon>Menu1.vb</DependentUpon>
     </EmbeddedResource>
