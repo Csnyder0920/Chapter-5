@@ -85,10 +85,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="TestScoreAverage.Designer.vb">
-      <DependentUpon>TestScoreAverage.vb</DependentUpon>
+    <Compile Include="TestScoreAverage1.Designer.vb">
+      <DependentUpon>TestScoreAverage1.vb</DependentUpon>
     </Compile>
-    <Compile Include="TestScoreAverage.vb">
+    <Compile Include="TestScoreAverage1.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -99,8 +99,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="TestScoreAverage.resx">
-      <DependentUpon>TestScoreAverage.vb</DependentUpon>
+    <EmbeddedResource Include="TestScoreAverage1.resx">
+      <DependentUpon>TestScoreAverage1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

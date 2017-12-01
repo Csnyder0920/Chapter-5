@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DD481847-FAF7-45F5-AA8B-E8FF99530605}</ProjectGuid>
+    <ProjectGuid>{A8256FA9-BCEB-4364-AEAB-B8EF92FE647D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Coin_Flip.My.MyApplication</StartupObject>
-    <RootNamespace>Coin_Flip</RootNamespace>
-    <AssemblyName>Coin Flip</AssemblyName>
+    <StartupObject>Chapter_5.My.MyApplication</StartupObject>
+    <RootNamespace>Chapter_5</RootNamespace>
+    <AssemblyName>Chapter 5</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -20,7 +20,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Coin Flip.xml</DocumentationFile>
+    <DocumentationFile>Chapter 5.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,7 +30,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Coin Flip.xml</DocumentationFile>
+    <DocumentationFile>Chapter 5.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -70,12 +70,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CoinFlip.vb" />
-    <Compile Include="CoinFlip1.vb">
+    <Compile Include="RunningTotal1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CoinFlip1.Designer.vb">
-      <DependentUpon>CoinFlip1.vb</DependentUpon>
+    <Compile Include="RunningTotal1.Designer.vb">
+      <DependentUpon>RunningTotal1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,8 +94,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CoinFlip1.resx">
-      <DependentUpon>CoinFlip1.vb</DependentUpon>
+    <EmbeddedResource Include="RunningTotal1.resx">
+      <DependentUpon>RunningTotal1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

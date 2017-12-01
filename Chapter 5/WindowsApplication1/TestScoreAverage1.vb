@@ -1,4 +1,4 @@
-﻿Public Class TestScoreAverage
+﻿Public Class TestScoreAverage1
 
     Private Sub btnScores_Click(sender As Object, e As EventArgs) Handles btnScores.Click
         ' This procedure gets the test scores, then calculates and 

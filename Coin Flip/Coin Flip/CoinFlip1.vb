@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class frmCoinFlip
     Dim tailsTotal As Integer = 0
     Dim headsTotal As Integer = 0
     Private Sub btnToss_Click(sender As Object, e As EventArgs) Handles btnToss.Click

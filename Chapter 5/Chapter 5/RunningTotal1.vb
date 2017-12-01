@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class RunningTotal1
 
     Private Sub btnSales_Click(sender As Object, e As EventArgs) Handles btnSales.Click
         Const intNUM_DAYS As Integer = 5                ' The number of day
