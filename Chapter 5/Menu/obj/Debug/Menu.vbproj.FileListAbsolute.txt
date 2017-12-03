@@ -9,3 +9,20 @@ C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.exe
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.xml
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.pdb
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmCoinFlip.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.exe.config
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.pdb
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Menu.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbprojResolveAssemblyReference.cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmCoinFlip.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.Menu1.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.Resources.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbproj.GenerateResource.Cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbproj.CoreCompileInputs.cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.pdb
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.pdb
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.exe.config

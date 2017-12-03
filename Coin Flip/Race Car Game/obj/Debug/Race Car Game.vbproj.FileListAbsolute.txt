@@ -1,0 +1,12 @@
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race_Car_Game.frmRaceCar.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race_Car_Game.Resources.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race Car Game.vbproj.GenerateResource.Cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race Car Game.vbproj.CoreCompileInputs.cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\bin\Debug\Race Car Game.exe.config
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\bin\Debug\Race Car Game.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\bin\Debug\Race Car Game.pdb
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\bin\Debug\Race Car Game.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race Car Game.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race Car Game.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race Car Game.pdb
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Coin Flip\Race Car Game\obj\Debug\Race Car Game.vbprojResolveAssemblyReference.cache
