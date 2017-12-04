@@ -26,3 +26,7 @@ C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\R
 C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.pdb
 C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.xml
 C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.exe.config
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.exe
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.pdb
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.xml
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbprojResolveAssemblyReference.cache

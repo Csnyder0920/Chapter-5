@@ -1,59 +1,41 @@
 ﻿Public Class frmRaceCar
-
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Randomize()
-        picCar1.Left += Rnd() * 2
-        picCar2.Left += Rnd() * 4
-
-        picCar3.Left += Rnd() * 3
-        picCar4.Left += Rnd() * 3
-
-        If Me.picCar1.Left > 1100 Then
-            Timer1.Stop()
-            Me.btnRace.Enabled = False
-            MessageBox.Show("Orange Car Wins!")
-            Me.lblOrangeWins.Text = Val(lblOrangeWins.Text) + 1
-        End If
-        If Me.picCar2.Left > 1100 Then
-            Timer1.Stop()
-            Me.btnRace.Enabled = False
-            MessageBox.Show("Green Car Wins!")
-            Me.lblGreenWins.Text = Val(lblGreenWins.Text) + 1
-        End If
-        If Me.picCar3.Left > 1100 Then
-            Timer1.Stop()
-            Me.btnRace.Enabled = False
-            MessageBox.Show("Blue Car Wins!")
-            Me.lblBlueWins.Text = Val(lblBlueWins.Text) + 1
-        End If
-        If Me.picCar4.Left > 1100 Then
-            Timer1.Stop()
-            Me.btnRace.Enabled = False
-            MessageBox.Show("Red Car Wins!")
-            Me.lblRedWins.Text = Val(lblRedWins.Text) + 1
-        End If
-    End Sub
+    Dim intOrangeCarCount As Integer
+    Dim intGreenCarCount As Integer
+    Dim intBlueCarCount As Integer
+    Dim intRedCarCount As Integer
 
     Private Sub btnRace_Click(sender As Object, e As EventArgs) Handles btnRace.Click
-        Me.picCar1.Left += 22
-    End Sub
-
-    Private Sub btnAceAgain_Click(sender As Object, e As EventArgs) Handles btnAceAgain.Click
-        Me.btnRace.Enabled = False
-        Me.picCar1.Location = New Point(18, 18)
-        Me.picCar2.Location = New Point(18, 155)
-        Me.picCar3.Location = New Point(18, 292)
-        Me.picCar4.Location = New Point(18, 429)
-        Me.btnAceAgain.Visible = False
+        Dim intCount1, intCount2, intCount3, intCount4 As Integer
+        Dim rand As New Random
 
 
-    End Sub
+        Dim intScore As Integer = 1
+        Dim intYouWin As Integer = 5
 
-    Private Sub btnPlay_Click(sender As Object, e As EventArgs) Handles btnPlay.Click
-        Me.btnRace.Enabled = True
-        Me.btnRace.Visible = True
-        Me.btnPlay.Visible = False
-        Timer1.Start()
-        Me.Select()
+        For intCount1 = 60 To rand.Next(250) + 500
+            picCar1.Left = intCount1
+        Next
+        For intCount2 = 60 To rand.Next(250) + 500
+            picCar2.Left = intCount2
+        Next
+        For intCount3 = 60 To rand.Next(250) + 500
+            picCar3.Left = intCount3
+        Next
+        For intCount4 = 60 To rand.Next(250) + 500
+            picCar4.Left = intCount4
+        Next
+        If intCount1 > intCount2 And intCount3 And intCount4 Then
+            intOrangeCarCount = intOrangeCarCount + 1
+        ElseIf intCount2 > intCount1 And intCount4 And intCount3 Then
+            intGreenCarCount = intGreenCarCount + 1
+        ElseIf intCount3 > intCount4 And intCount1 And intCount2 Then
+            intBlueCarCount = intBlueCarCount + 1
+        ElseIf intCount4 > intCount3 And intCount2 And intCount1 Then
+            intRedCarCount = intRedCarCount + 1
+        End If
+        lblOrangeWins.Text = intOrangeCarCount
+        lblGreenWins.Text = intGreenCarCount
+        lblBlueWins.Text = intBlueCarCount
+        lblRedWins.Text = intRedCarCount
     End Sub
 End Class
