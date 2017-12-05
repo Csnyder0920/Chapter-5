@@ -76,6 +76,12 @@
     <Compile Include="CoinFlip1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmRaceCar.Designer.vb">
+      <DependentUpon>frmRaceCar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRaceCar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmRPS.Designer.vb">
       <DependentUpon>frmRPS.vb</DependentUpon>
     </Compile>
@@ -104,10 +110,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="RunningTotal1.Designer.vb">
+      <DependentUpon>RunningTotal1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RunningTotal1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestScoreAverage1.Designer.vb">
+      <DependentUpon>TestScoreAverage1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestScoreAverage1.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CoinFlip1.resx">
       <DependentUpon>CoinFlip1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRaceCar.resx">
+      <DependentUpon>frmRaceCar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRPS.resx">
       <DependentUpon>frmRPS.vb</DependentUpon>
@@ -121,6 +142,12 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="RunningTotal1.resx">
+      <DependentUpon>RunningTotal1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestScoreAverage1.resx">
+      <DependentUpon>TestScoreAverage1.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -133,12 +160,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Coin Flip\Race Car Game\Race Car Game.vbproj">
-      <Project>{DFDFC6D5-5C5A-4023-8CD3-2BF72B7596F8}</Project>
-      <Name>Race Car Game</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

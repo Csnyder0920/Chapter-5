@@ -29,8 +29,8 @@ Partial Class frmRPS
         Me.radPaper = New System.Windows.Forms.RadioButton()
         Me.radRock = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lblCompWins = New System.Windows.Forms.Label()
+        Me.lblUserWins = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblResult = New System.Windows.Forms.Label()
@@ -73,10 +73,9 @@ Partial Class frmRPS
         Me.radScissors.AutoSize = True
         Me.radScissors.Location = New System.Drawing.Point(45, 144)
         Me.radScissors.Name = "radScissors"
-        Me.radScissors.Size = New System.Drawing.Size(90, 17)
+        Me.radScissors.Size = New System.Drawing.Size(64, 17)
         Me.radScissors.TabIndex = 2
-        Me.radScissors.TabStop = True
-        Me.radScissors.Text = "RadioButton3"
+        Me.radScissors.Text = "Scissors"
         Me.radScissors.UseVisualStyleBackColor = True
         '
         'radPaper
@@ -84,10 +83,9 @@ Partial Class frmRPS
         Me.radPaper.AutoSize = True
         Me.radPaper.Location = New System.Drawing.Point(45, 92)
         Me.radPaper.Name = "radPaper"
-        Me.radPaper.Size = New System.Drawing.Size(90, 17)
+        Me.radPaper.Size = New System.Drawing.Size(53, 17)
         Me.radPaper.TabIndex = 1
-        Me.radPaper.TabStop = True
-        Me.radPaper.Text = "RadioButton2"
+        Me.radPaper.Text = "Paper"
         Me.radPaper.UseVisualStyleBackColor = True
         '
         'radRock
@@ -95,16 +93,15 @@ Partial Class frmRPS
         Me.radRock.AutoSize = True
         Me.radRock.Location = New System.Drawing.Point(45, 48)
         Me.radRock.Name = "radRock"
-        Me.radRock.Size = New System.Drawing.Size(90, 17)
+        Me.radRock.Size = New System.Drawing.Size(51, 17)
         Me.radRock.TabIndex = 0
-        Me.radRock.TabStop = True
-        Me.radRock.Text = "RadioButton1"
+        Me.radRock.Text = "Rock"
         Me.radRock.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.Label3)
+        Me.GroupBox2.Controls.Add(Me.lblCompWins)
+        Me.GroupBox2.Controls.Add(Me.lblUserWins)
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Controls.Add(Me.Label1)
         Me.GroupBox2.Location = New System.Drawing.Point(266, 12)
@@ -114,21 +111,21 @@ Partial Class frmRPS
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Wins"
         '
-        'Label4
+        'lblCompWins
         '
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label4.Location = New System.Drawing.Point(105, 101)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(28, 23)
-        Me.Label4.TabIndex = 3
+        Me.lblCompWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblCompWins.Location = New System.Drawing.Point(105, 101)
+        Me.lblCompWins.Name = "lblCompWins"
+        Me.lblCompWins.Size = New System.Drawing.Size(28, 23)
+        Me.lblCompWins.TabIndex = 3
         '
-        'Label3
+        'lblUserWins
         '
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Location = New System.Drawing.Point(105, 33)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(28, 23)
-        Me.Label3.TabIndex = 2
+        Me.lblUserWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblUserWins.Location = New System.Drawing.Point(105, 33)
+        Me.lblUserWins.Name = "lblUserWins"
+        Me.lblUserWins.Size = New System.Drawing.Size(28, 23)
+        Me.lblUserWins.TabIndex = 2
         '
         'Label2
         '
@@ -183,8 +180,8 @@ Partial Class frmRPS
     Friend WithEvents radPaper As System.Windows.Forms.RadioButton
     Friend WithEvents radRock As System.Windows.Forms.RadioButton
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents lblCompWins As System.Windows.Forms.Label
+    Friend WithEvents lblUserWins As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents lblResult As System.Windows.Forms.Label

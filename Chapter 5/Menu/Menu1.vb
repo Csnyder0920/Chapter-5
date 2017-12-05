@@ -20,4 +20,14 @@ Public Class Menu1
         Dim box = New frmRPS()
         box.Show()
     End Sub
+
+    Private Sub btnRunningTotal_Click(sender As Object, e As EventArgs) Handles btnRunningTotal.Click
+        Dim box = New RunningTotal1()
+        box.Show()
+    End Sub
+
+    Private Sub btnTestScoreAverage_Click(sender As Object, e As EventArgs) Handles btnTestScoreAverage.Click
+        Dim box = New TestScoreAverage1()
+        box.Show()
+    End Sub
 End Class
