@@ -100,7 +100,7 @@ Partial Class Form1
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(194, 291)
+        Me.btnCalculate.Location = New System.Drawing.Point(145, 288)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
         Me.btnCalculate.TabIndex = 5
@@ -111,7 +111,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(536, 400)
+        Me.ClientSize = New System.Drawing.Size(387, 348)
         Me.Controls.Add(Me.txtSideC)
         Me.Controls.Add(Me.txtSideB)
         Me.Controls.Add(Me.txtSideA)
