@@ -71,12 +71,12 @@ Partial Class frmRPS
         'radScissors
         '
         Me.radScissors.AutoSize = True
-        Me.radScissors.Location = New System.Drawing.Point(45, 137)
+        Me.radScissors.Location = New System.Drawing.Point(45, 144)
         Me.radScissors.Name = "radScissors"
-        Me.radScissors.Size = New System.Drawing.Size(64, 17)
+        Me.radScissors.Size = New System.Drawing.Size(90, 17)
         Me.radScissors.TabIndex = 2
         Me.radScissors.TabStop = True
-        Me.radScissors.Text = "Scissors"
+        Me.radScissors.Text = "RadioButton3"
         Me.radScissors.UseVisualStyleBackColor = True
         '
         'radPaper
@@ -84,10 +84,10 @@ Partial Class frmRPS
         Me.radPaper.AutoSize = True
         Me.radPaper.Location = New System.Drawing.Point(45, 92)
         Me.radPaper.Name = "radPaper"
-        Me.radPaper.Size = New System.Drawing.Size(53, 17)
+        Me.radPaper.Size = New System.Drawing.Size(90, 17)
         Me.radPaper.TabIndex = 1
         Me.radPaper.TabStop = True
-        Me.radPaper.Text = "Paper"
+        Me.radPaper.Text = "RadioButton2"
         Me.radPaper.UseVisualStyleBackColor = True
         '
         'radRock
@@ -95,10 +95,10 @@ Partial Class frmRPS
         Me.radRock.AutoSize = True
         Me.radRock.Location = New System.Drawing.Point(45, 48)
         Me.radRock.Name = "radRock"
-        Me.radRock.Size = New System.Drawing.Size(51, 17)
+        Me.radRock.Size = New System.Drawing.Size(90, 17)
         Me.radRock.TabIndex = 0
         Me.radRock.TabStop = True
-        Me.radRock.Text = "Rock"
+        Me.radRock.Text = "RadioButton1"
         Me.radRock.UseVisualStyleBackColor = True
         '
         'GroupBox2
@@ -168,7 +168,7 @@ Partial Class frmRPS
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnShoot)
         Me.Name = "frmRPS"
-        Me.Text = "Rock, Paper, Scissors!"
+        Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

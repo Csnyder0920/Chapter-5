@@ -30,3 +30,4 @@ C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car G
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.pdb
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.xml
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbprojResolveAssemblyReference.cache
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRPS.resources
