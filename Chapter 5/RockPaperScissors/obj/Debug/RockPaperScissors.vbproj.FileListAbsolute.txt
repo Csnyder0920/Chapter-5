@@ -1,0 +1,12 @@
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.vbprojResolveAssemblyReference.cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.frmRPS.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.Resources.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.vbproj.GenerateResource.Cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.vbproj.CoreCompileInputs.cache
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\bin\Debug\RockPaperScissors.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.xml
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\RockPaperScissors\obj\Debug\RockPaperScissors.pdb

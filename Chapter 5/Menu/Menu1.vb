@@ -12,8 +12,12 @@ Public Class Menu1
         box.Show()
     End Sub
 
-    Private Sub BtnSumOfNumbers_Click(sender As Object, e As EventArgs) Handles btnSumOfNumbers.Click
-        Dim box = New frmSum_Numbers()
-        box.Show()
+    Private Sub btnSumOfNumbers_Click(sender As Object, e As EventArgs) Handles btnSumOfNumbers.Click
+
+    End Sub
+
+    Private Sub btnRockPaperScissors_Click(sender As Object, e As EventArgs) Handles btnRockPaperScissors.Click
+        Dim box = New frmRPS()
+        box.Show
     End Sub
 End Class
