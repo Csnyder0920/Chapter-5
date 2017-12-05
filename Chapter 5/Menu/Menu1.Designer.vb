@@ -26,7 +26,7 @@ Partial Class Menu1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnRockPaperScissors = New System.Windows.Forms.Button()
         Me.btnRaceCar = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnSumOfNumbers = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -74,14 +74,15 @@ Partial Class Menu1
         Me.btnRaceCar.Text = "Race Car"
         Me.btnRaceCar.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnSumOfNumbers
         '
-        Me.Button4.Location = New System.Drawing.Point(186, 309)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(112, 35)
-        Me.Button4.TabIndex = 4
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnSumOfNumbers.Location = New System.Drawing.Point(161, 310)
+        Me.btnSumOfNumbers.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnSumOfNumbers.Name = "btnSumOfNumbers"
+        Me.btnSumOfNumbers.Size = New System.Drawing.Size(161, 35)
+        Me.btnSumOfNumbers.TabIndex = 4
+        Me.btnSumOfNumbers.Text = "Sum of Numbers"
+        Me.btnSumOfNumbers.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -118,7 +119,7 @@ Partial Class Menu1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.btnSumOfNumbers)
         Me.Controls.Add(Me.btnRaceCar)
         Me.Controls.Add(Me.btnRockPaperScissors)
         Me.Controls.Add(Me.Label1)
@@ -134,7 +135,7 @@ Partial Class Menu1
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents btnRockPaperScissors As System.Windows.Forms.Button
     Friend WithEvents btnRaceCar As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents btnSumOfNumbers As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button

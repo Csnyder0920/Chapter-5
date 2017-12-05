@@ -11,4 +11,9 @@ Public Class Menu1
         Dim box = New frmRaceCar()
         box.Show()
     End Sub
+
+    Private Sub BtnSumOfNumbers_Click(sender As Object, e As EventArgs) Handles btnSumOfNumbers.Click
+        Dim box = New frmSum_Numbers()
+        box.Show()
+    End Sub
 End Class
