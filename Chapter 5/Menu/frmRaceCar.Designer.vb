@@ -38,6 +38,8 @@ Partial Class frmRaceCar
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnRace = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         CType(Me.picCar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picCar2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picCar3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,10 +51,9 @@ Partial Class frmRaceCar
         'picCar1
         '
         Me.picCar1.Image = CType(resources.GetObject("picCar1.Image"), System.Drawing.Image)
-        Me.picCar1.Location = New System.Drawing.Point(18, 18)
-        Me.picCar1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.picCar1.Location = New System.Drawing.Point(12, 12)
         Me.picCar1.Name = "picCar1"
-        Me.picCar1.Size = New System.Drawing.Size(225, 128)
+        Me.picCar1.Size = New System.Drawing.Size(150, 83)
         Me.picCar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picCar1.TabIndex = 0
         Me.picCar1.TabStop = False
@@ -60,10 +61,9 @@ Partial Class frmRaceCar
         'picCar2
         '
         Me.picCar2.Image = CType(resources.GetObject("picCar2.Image"), System.Drawing.Image)
-        Me.picCar2.Location = New System.Drawing.Point(18, 155)
-        Me.picCar2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.picCar2.Location = New System.Drawing.Point(12, 101)
         Me.picCar2.Name = "picCar2"
-        Me.picCar2.Size = New System.Drawing.Size(225, 128)
+        Me.picCar2.Size = New System.Drawing.Size(150, 83)
         Me.picCar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picCar2.TabIndex = 1
         Me.picCar2.TabStop = False
@@ -71,10 +71,9 @@ Partial Class frmRaceCar
         'picCar3
         '
         Me.picCar3.Image = CType(resources.GetObject("picCar3.Image"), System.Drawing.Image)
-        Me.picCar3.Location = New System.Drawing.Point(18, 292)
-        Me.picCar3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.picCar3.Location = New System.Drawing.Point(12, 190)
         Me.picCar3.Name = "picCar3"
-        Me.picCar3.Size = New System.Drawing.Size(225, 128)
+        Me.picCar3.Size = New System.Drawing.Size(150, 83)
         Me.picCar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picCar3.TabIndex = 2
         Me.picCar3.TabStop = False
@@ -82,10 +81,9 @@ Partial Class frmRaceCar
         'picCar4
         '
         Me.picCar4.Image = CType(resources.GetObject("picCar4.Image"), System.Drawing.Image)
-        Me.picCar4.Location = New System.Drawing.Point(18, 429)
-        Me.picCar4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.picCar4.Location = New System.Drawing.Point(12, 279)
         Me.picCar4.Name = "picCar4"
-        Me.picCar4.Size = New System.Drawing.Size(225, 128)
+        Me.picCar4.Size = New System.Drawing.Size(150, 83)
         Me.picCar4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picCar4.TabIndex = 3
         Me.picCar4.TabStop = False
@@ -95,11 +93,9 @@ Partial Class frmRaceCar
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.btnRace)
-        Me.GroupBox1.Location = New System.Drawing.Point(18, 603)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 392)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.GroupBox1.Size = New System.Drawing.Size(657, 172)
+        Me.GroupBox1.Size = New System.Drawing.Size(438, 112)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
@@ -113,9 +109,11 @@ Partial Class frmRaceCar
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.Label2)
-        Me.GroupBox2.Location = New System.Drawing.Point(249, 28)
+        Me.GroupBox2.Location = New System.Drawing.Point(166, 18)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(378, 137)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(252, 89)
         Me.GroupBox2.TabIndex = 13
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Total Wins "
@@ -125,9 +123,10 @@ Partial Class frmRaceCar
         Me.lblRedWins.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.lblRedWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblRedWins.Cursor = System.Windows.Forms.Cursors.Default
-        Me.lblRedWins.Location = New System.Drawing.Point(226, 88)
+        Me.lblRedWins.Location = New System.Drawing.Point(151, 57)
+        Me.lblRedWins.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRedWins.Name = "lblRedWins"
-        Me.lblRedWins.Size = New System.Drawing.Size(75, 23)
+        Me.lblRedWins.Size = New System.Drawing.Size(50, 15)
         Me.lblRedWins.TabIndex = 7
         '
         'lblBlueWins
@@ -135,9 +134,10 @@ Partial Class frmRaceCar
         Me.lblBlueWins.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.lblBlueWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblBlueWins.Cursor = System.Windows.Forms.Cursors.Default
-        Me.lblBlueWins.Location = New System.Drawing.Point(228, 38)
+        Me.lblBlueWins.Location = New System.Drawing.Point(152, 25)
+        Me.lblBlueWins.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblBlueWins.Name = "lblBlueWins"
-        Me.lblBlueWins.Size = New System.Drawing.Size(75, 23)
+        Me.lblBlueWins.Size = New System.Drawing.Size(50, 15)
         Me.lblBlueWins.TabIndex = 6
         '
         'lblGreenWins
@@ -145,9 +145,10 @@ Partial Class frmRaceCar
         Me.lblGreenWins.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.lblGreenWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblGreenWins.Cursor = System.Windows.Forms.Cursors.Default
-        Me.lblGreenWins.Location = New System.Drawing.Point(78, 92)
+        Me.lblGreenWins.Location = New System.Drawing.Point(52, 60)
+        Me.lblGreenWins.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblGreenWins.Name = "lblGreenWins"
-        Me.lblGreenWins.Size = New System.Drawing.Size(75, 23)
+        Me.lblGreenWins.Size = New System.Drawing.Size(50, 15)
         Me.lblGreenWins.TabIndex = 5
         '
         'lblOrangeWins
@@ -155,70 +156,95 @@ Partial Class frmRaceCar
         Me.lblOrangeWins.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.lblOrangeWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblOrangeWins.Cursor = System.Windows.Forms.Cursors.Default
-        Me.lblOrangeWins.Location = New System.Drawing.Point(78, 38)
+        Me.lblOrangeWins.Location = New System.Drawing.Point(52, 25)
+        Me.lblOrangeWins.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblOrangeWins.Name = "lblOrangeWins"
-        Me.lblOrangeWins.Size = New System.Drawing.Size(75, 23)
+        Me.lblOrangeWins.Size = New System.Drawing.Size(50, 15)
         Me.lblOrangeWins.TabIndex = 4
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(177, 88)
+        Me.Label5.Location = New System.Drawing.Point(118, 57)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(43, 20)
+        Me.Label5.Size = New System.Drawing.Size(30, 13)
         Me.Label5.TabIndex = 3
         Me.Label5.Text = "Red:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(177, 38)
+        Me.Label4.Location = New System.Drawing.Point(118, 25)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 20)
+        Me.Label4.Size = New System.Drawing.Size(31, 13)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Blue:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 95)
+        Me.Label3.Location = New System.Drawing.Point(4, 62)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 20)
+        Me.Label3.Size = New System.Drawing.Size(39, 13)
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Green:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 38)
+        Me.Label2.Location = New System.Drawing.Point(4, 25)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 20)
+        Me.Label2.Size = New System.Drawing.Size(45, 13)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Orange:"
         '
         'btnRace
         '
-        Me.btnRace.Location = New System.Drawing.Point(60, 28)
-        Me.btnRace.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnRace.Location = New System.Drawing.Point(40, 18)
         Me.btnRace.Name = "btnRace"
-        Me.btnRace.Size = New System.Drawing.Size(112, 35)
+        Me.btnRace.Size = New System.Drawing.Size(75, 23)
         Me.btnRace.TabIndex = 2
         Me.btnRace.Text = "Race!"
         Me.btnRace.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(539, 406)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(180, 25)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "First to 10 wins!"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(569, 455)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(125, 25)
+        Me.Label6.TabIndex = 6
+        Me.Label6.Text = "Good luck!"
+        '
         'frmRaceCar
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.ClientSize = New System.Drawing.Size(1198, 803)
+        Me.ClientSize = New System.Drawing.Size(799, 522)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.picCar4)
         Me.Controls.Add(Me.picCar3)
         Me.Controls.Add(Me.picCar2)
         Me.Controls.Add(Me.picCar1)
         Me.Cursor = System.Windows.Forms.Cursors.Default
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmRaceCar"
         Me.Text = "Race Car Game"
         CType(Me.picCar1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -229,6 +255,7 @@ Partial Class frmRaceCar
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents picCar1 As System.Windows.Forms.PictureBox
@@ -246,4 +273,6 @@ Partial Class frmRaceCar
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
 End Class

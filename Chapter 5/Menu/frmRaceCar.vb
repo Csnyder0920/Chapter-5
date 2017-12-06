@@ -23,22 +23,22 @@
         For intCount4 = 60 To rand.Next(250) + 450
             picCar4.Left = intCount4
         Next
-        If intCount1 > intCount2 And intCount3 And intCount4 Then
+        If intCount1 > intCount2 And intCount1 > intCount3 And intCount1 > intCount4 Then
             intOrangeCarCount = intOrangeCarCount + 1
             lblOrangeWins.Text = intOrangeCarCount
         End If
-        If intCount2 > intCount1 And intCount3 And intCount4 Then
+        If intCount2 > intCount1 And intCount2 > intCount3 And intCount2 > intCount4 Then
             intGreenCarCount = intGreenCarCount + 1
             lblGreenWins.Text = intGreenCarCount
         End If
-        If intCount3 > intCount4 And intCount1 And intCount2 Then
+        If intCount3 > intCount4 And intCount3 > intCount1 And intCount3 > intCount2 Then
             intBlueCarCount = intBlueCarCount + 1
             lblBlueWins.Text = intBlueCarCount
         End If
-        If intCount4 > intCount3 And intCount2 And intCount1 Then
-                intRedCarCount = intRedCarCount + 1
-                lblRedWins.Text = intRedCarCount
-            End If
+        If intCount4 > intCount3 And intCount4 > intCount2 And intCount4 > intCount1 Then
+            intRedCarCount = intRedCarCount + 1
+            lblRedWins.Text = intRedCarCount
+        End If
 
             If intOrangeCarCount = intYouWin Then
             MessageBox.Show("Orange Car Wins!")
