@@ -27,11 +27,12 @@ Partial Class Menu1
         Me.btnRockPaperScissors = New System.Windows.Forms.Button()
         Me.btnRaceCar = New System.Windows.Forms.Button()
         Me.btnSumOfNumbers = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.btnDistanceCalculator = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.btnTestScoreAverage = New System.Windows.Forms.Button()
         Me.btnRunningTotal = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnCoinFlip
@@ -81,13 +82,14 @@ Partial Class Menu1
         Me.btnSumOfNumbers.Text = "Sum of Numbers"
         Me.btnSumOfNumbers.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btnDistanceCalculator
         '
-        Me.Button5.Location = New System.Drawing.Point(124, 230)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 22)
-        Me.Button5.TabIndex = 5
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnDistanceCalculator.Location = New System.Drawing.Point(96, 230)
+        Me.btnDistanceCalculator.Name = "btnDistanceCalculator"
+        Me.btnDistanceCalculator.Size = New System.Drawing.Size(133, 22)
+        Me.btnDistanceCalculator.TabIndex = 5
+        Me.btnDistanceCalculator.Text = "Distance Calculator"
+        Me.btnDistanceCalculator.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -123,16 +125,26 @@ Partial Class Menu1
         Me.btnRunningTotal.Text = "Running Total"
         Me.btnRunningTotal.UseVisualStyleBackColor = True
         '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(125, 370)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 22)
+        Me.btnExit.TabIndex = 10
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
         'Menu1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(325, 394)
+        Me.ClientSize = New System.Drawing.Size(325, 417)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnRunningTotal)
         Me.Controls.Add(Me.btnTestScoreAverage)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.btnDistanceCalculator)
         Me.Controls.Add(Me.btnSumOfNumbers)
         Me.Controls.Add(Me.btnRaceCar)
         Me.Controls.Add(Me.btnRockPaperScissors)
@@ -149,10 +161,11 @@ Partial Class Menu1
     Friend WithEvents btnRockPaperScissors As System.Windows.Forms.Button
     Friend WithEvents btnRaceCar As System.Windows.Forms.Button
     Friend WithEvents btnSumOfNumbers As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents btnDistanceCalculator As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents btnTestScoreAverage As System.Windows.Forms.Button
     Friend WithEvents btnRunningTotal As System.Windows.Forms.Button
+    Friend WithEvents btnExit As System.Windows.Forms.Button
 
 End Class

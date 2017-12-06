@@ -1,4 +1,4 @@
-﻿Imports Race_Car_Game
+﻿
 
 Public Class Menu1
 
@@ -13,7 +13,8 @@ Public Class Menu1
     End Sub
 
     Private Sub btnSumOfNumbers_Click(sender As Object, e As EventArgs) Handles btnSumOfNumbers.Click
-     
+        Dim box = New SumOfNumbers()
+        box.Show()
     End Sub
 
     Private Sub btnRockPaperScissors_Click(sender As Object, e As EventArgs) Handles btnRockPaperScissors.Click
@@ -28,6 +29,15 @@ Public Class Menu1
 
     Private Sub btnTestScoreAverage_Click(sender As Object, e As EventArgs) Handles btnTestScoreAverage.Click
         Dim box = New TestScoreAverage1()
+        box.Show()
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
+    End Sub
+
+    Private Sub btnDistanceCalculator_Click(sender As Object, e As EventArgs) Handles btnDistanceCalculator.Click
+        Dim box = New DistanceCalculator()
         box.Show()
     End Sub
 End Class

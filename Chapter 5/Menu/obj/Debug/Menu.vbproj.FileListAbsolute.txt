@@ -31,3 +31,5 @@ C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRP
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRaceCar.resources
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.RunningTotal1.resources
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.TestScoreAverage1.resources
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.SumOfNumbers.resources
+C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.DistanceCalculator.resources
