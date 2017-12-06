@@ -22,10 +22,6 @@ C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\M
 C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.exe
 C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.xml
 C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.pdb
-C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.exe
-C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.pdb
-C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.xml
-C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\bin\Debug\Race Car Game.exe.config
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.vbprojResolveAssemblyReference.cache
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRPS.resources
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRaceCar.resources
@@ -33,3 +29,9 @@ C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.Runni
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.TestScoreAverage1.resources
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.SumOfNumbers.resources
 C:\Users\cs137672\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.DistanceCalculator.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.DistanceCalculator.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRaceCar.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.frmRPS.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.RunningTotal1.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.SumOfNumbers.resources
+C:\Users\Christian-Melinda\Documents\GitHub\Chapter-5\Chapter 5\Menu\obj\Debug\Menu.TestScoreAverage1.resources

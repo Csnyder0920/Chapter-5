@@ -30,37 +30,42 @@ Partial Class DistanceCalculator
         'lstCalculations
         '
         Me.lstCalculations.FormattingEnabled = True
-        Me.lstCalculations.Location = New System.Drawing.Point(12, 12)
+        Me.lstCalculations.ItemHeight = 20
+        Me.lstCalculations.Location = New System.Drawing.Point(18, 18)
+        Me.lstCalculations.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.lstCalculations.Name = "lstCalculations"
-        Me.lstCalculations.Size = New System.Drawing.Size(322, 225)
+        Me.lstCalculations.Size = New System.Drawing.Size(481, 344)
         Me.lstCalculations.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(73, 252)
+        Me.Button1.Location = New System.Drawing.Point(110, 388)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 40)
+        Me.Button1.Size = New System.Drawing.Size(112, 62)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Calculate"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(183, 252)
+        Me.Button2.Location = New System.Drawing.Point(274, 388)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 40)
+        Me.Button2.Size = New System.Drawing.Size(112, 62)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Exit"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'DistanceCalculator
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(346, 304)
+        Me.ClientSize = New System.Drawing.Size(519, 468)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lstCalculations)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "DistanceCalculator"
         Me.Text = "DistanceCalculator"
         Me.ResumeLayout(False)
