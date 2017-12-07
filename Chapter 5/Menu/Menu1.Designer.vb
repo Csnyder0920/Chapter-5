@@ -28,7 +28,7 @@ Partial Class Menu1
         Me.btnRaceCar = New System.Windows.Forms.Button()
         Me.btnSumOfNumbers = New System.Windows.Forms.Button()
         Me.btnDistanceCalculator = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnPopulationProgram = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.btnTestScoreAverage = New System.Windows.Forms.Button()
         Me.btnRunningTotal = New System.Windows.Forms.Button()
@@ -37,9 +37,10 @@ Partial Class Menu1
         '
         'btnCoinFlip
         '
-        Me.btnCoinFlip.Location = New System.Drawing.Point(124, 51)
+        Me.btnCoinFlip.Location = New System.Drawing.Point(186, 78)
+        Me.btnCoinFlip.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnCoinFlip.Name = "btnCoinFlip"
-        Me.btnCoinFlip.Size = New System.Drawing.Size(75, 44)
+        Me.btnCoinFlip.Size = New System.Drawing.Size(112, 68)
         Me.btnCoinFlip.TabIndex = 0
         Me.btnCoinFlip.Text = "Coin Flip"
         Me.btnCoinFlip.UseVisualStyleBackColor = True
@@ -48,108 +49,120 @@ Partial Class Menu1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(82, 9)
+        Me.Label1.Location = New System.Drawing.Point(123, 14)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(165, 25)
+        Me.Label1.Size = New System.Drawing.Size(241, 37)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Program Menu"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnRockPaperScissors
         '
-        Me.btnRockPaperScissors.Location = New System.Drawing.Point(124, 101)
+        Me.btnRockPaperScissors.Location = New System.Drawing.Point(186, 155)
+        Me.btnRockPaperScissors.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnRockPaperScissors.Name = "btnRockPaperScissors"
-        Me.btnRockPaperScissors.Size = New System.Drawing.Size(75, 44)
+        Me.btnRockPaperScissors.Size = New System.Drawing.Size(112, 68)
         Me.btnRockPaperScissors.TabIndex = 2
         Me.btnRockPaperScissors.Text = "Rock Paper Scissors"
         Me.btnRockPaperScissors.UseVisualStyleBackColor = True
         '
         'btnRaceCar
         '
-        Me.btnRaceCar.Location = New System.Drawing.Point(124, 151)
+        Me.btnRaceCar.Location = New System.Drawing.Point(186, 232)
+        Me.btnRaceCar.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnRaceCar.Name = "btnRaceCar"
-        Me.btnRaceCar.Size = New System.Drawing.Size(75, 44)
+        Me.btnRaceCar.Size = New System.Drawing.Size(112, 68)
         Me.btnRaceCar.TabIndex = 3
         Me.btnRaceCar.Text = "Race Car"
         Me.btnRaceCar.UseVisualStyleBackColor = True
         '
         'btnSumOfNumbers
         '
-        Me.btnSumOfNumbers.Location = New System.Drawing.Point(96, 201)
+        Me.btnSumOfNumbers.Location = New System.Drawing.Point(144, 309)
+        Me.btnSumOfNumbers.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnSumOfNumbers.Name = "btnSumOfNumbers"
-        Me.btnSumOfNumbers.Size = New System.Drawing.Size(133, 23)
+        Me.btnSumOfNumbers.Size = New System.Drawing.Size(200, 35)
         Me.btnSumOfNumbers.TabIndex = 4
         Me.btnSumOfNumbers.Text = "Sum of Numbers"
         Me.btnSumOfNumbers.UseVisualStyleBackColor = True
         '
         'btnDistanceCalculator
         '
-        Me.btnDistanceCalculator.Location = New System.Drawing.Point(96, 230)
+        Me.btnDistanceCalculator.Location = New System.Drawing.Point(144, 354)
+        Me.btnDistanceCalculator.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnDistanceCalculator.Name = "btnDistanceCalculator"
-        Me.btnDistanceCalculator.Size = New System.Drawing.Size(133, 22)
+        Me.btnDistanceCalculator.Size = New System.Drawing.Size(200, 34)
         Me.btnDistanceCalculator.TabIndex = 5
         Me.btnDistanceCalculator.Text = "Distance Calculator"
         Me.btnDistanceCalculator.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnPopulationProgram
         '
-        Me.Button1.Location = New System.Drawing.Point(125, 258)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 22)
-        Me.Button1.TabIndex = 6
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnPopulationProgram.Location = New System.Drawing.Point(144, 396)
+        Me.btnPopulationProgram.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.btnPopulationProgram.Name = "btnPopulationProgram"
+        Me.btnPopulationProgram.Size = New System.Drawing.Size(200, 34)
+        Me.btnPopulationProgram.TabIndex = 6
+        Me.btnPopulationProgram.Text = "Population Program"
+        Me.btnPopulationProgram.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(124, 286)
+        Me.Button2.Location = New System.Drawing.Point(186, 440)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 22)
+        Me.Button2.Size = New System.Drawing.Size(112, 34)
         Me.Button2.TabIndex = 7
         Me.Button2.UseVisualStyleBackColor = True
         '
         'btnTestScoreAverage
         '
-        Me.btnTestScoreAverage.Location = New System.Drawing.Point(96, 342)
+        Me.btnTestScoreAverage.Location = New System.Drawing.Point(144, 526)
+        Me.btnTestScoreAverage.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnTestScoreAverage.Name = "btnTestScoreAverage"
-        Me.btnTestScoreAverage.Size = New System.Drawing.Size(133, 22)
+        Me.btnTestScoreAverage.Size = New System.Drawing.Size(200, 34)
         Me.btnTestScoreAverage.TabIndex = 8
         Me.btnTestScoreAverage.Text = "Test Score Average"
         Me.btnTestScoreAverage.UseVisualStyleBackColor = True
         '
         'btnRunningTotal
         '
-        Me.btnRunningTotal.Location = New System.Drawing.Point(96, 314)
+        Me.btnRunningTotal.Location = New System.Drawing.Point(144, 483)
+        Me.btnRunningTotal.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnRunningTotal.Name = "btnRunningTotal"
-        Me.btnRunningTotal.Size = New System.Drawing.Size(133, 22)
+        Me.btnRunningTotal.Size = New System.Drawing.Size(200, 34)
         Me.btnRunningTotal.TabIndex = 9
         Me.btnRunningTotal.Text = "Running Total"
         Me.btnRunningTotal.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(125, 370)
+        Me.btnExit.Location = New System.Drawing.Point(188, 569)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 22)
+        Me.btnExit.Size = New System.Drawing.Size(112, 34)
         Me.btnExit.TabIndex = 10
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'Menu1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(325, 417)
+        Me.ClientSize = New System.Drawing.Size(488, 642)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnRunningTotal)
         Me.Controls.Add(Me.btnTestScoreAverage)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnPopulationProgram)
         Me.Controls.Add(Me.btnDistanceCalculator)
         Me.Controls.Add(Me.btnSumOfNumbers)
         Me.Controls.Add(Me.btnRaceCar)
         Me.Controls.Add(Me.btnRockPaperScissors)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnCoinFlip)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Menu1"
         Me.Text = "Menu"
         Me.ResumeLayout(False)
@@ -162,7 +175,7 @@ Partial Class Menu1
     Friend WithEvents btnRaceCar As System.Windows.Forms.Button
     Friend WithEvents btnSumOfNumbers As System.Windows.Forms.Button
     Friend WithEvents btnDistanceCalculator As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnPopulationProgram As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents btnTestScoreAverage As System.Windows.Forms.Button
     Friend WithEvents btnRunningTotal As System.Windows.Forms.Button

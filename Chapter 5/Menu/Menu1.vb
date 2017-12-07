@@ -40,4 +40,9 @@ Public Class Menu1
         Dim box = New DistanceCalculator()
         box.Show()
     End Sub
+
+    Private Sub btnPopulationProgram_Click(sender As Object, e As EventArgs) Handles btnPopulationProgram.Click
+        Dim box = New PopulationProgram()
+        box.Show()
+    End Sub
 End Class
