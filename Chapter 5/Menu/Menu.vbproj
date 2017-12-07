@@ -122,6 +122,12 @@
     <Compile Include="PopulationProgram.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Random_Number_Guessing_Game.Designer.vb">
+      <DependentUpon>Random_Number_Guessing_Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Random_Number_Guessing_Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="RunningTotal1.Designer.vb">
       <DependentUpon>RunningTotal1.vb</DependentUpon>
     </Compile>
@@ -165,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PopulationProgram.resx">
       <DependentUpon>PopulationProgram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Random_Number_Guessing_Game.resx">
+      <DependentUpon>Random_Number_Guessing_Game.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RunningTotal1.resx">
       <DependentUpon>RunningTotal1.vb</DependentUpon>

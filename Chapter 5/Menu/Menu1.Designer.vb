@@ -29,7 +29,7 @@ Partial Class Menu1
         Me.btnSumOfNumbers = New System.Windows.Forms.Button()
         Me.btnDistanceCalculator = New System.Windows.Forms.Button()
         Me.btnPopulationProgram = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnRandomNumber = New System.Windows.Forms.Button()
         Me.btnTestScoreAverage = New System.Windows.Forms.Button()
         Me.btnRunningTotal = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
@@ -100,13 +100,14 @@ Partial Class Menu1
         Me.btnPopulationProgram.Text = "Population Program"
         Me.btnPopulationProgram.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnRandomNumber
         '
-        Me.Button2.Location = New System.Drawing.Point(96, 286)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(133, 22)
-        Me.Button2.TabIndex = 7
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnRandomNumber.Location = New System.Drawing.Point(96, 286)
+        Me.btnRandomNumber.Name = "btnRandomNumber"
+        Me.btnRandomNumber.Size = New System.Drawing.Size(133, 22)
+        Me.btnRandomNumber.TabIndex = 7
+        Me.btnRandomNumber.Text = "Random Number Game"
+        Me.btnRandomNumber.UseVisualStyleBackColor = True
         '
         'btnTestScoreAverage
         '
@@ -143,7 +144,7 @@ Partial Class Menu1
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnRunningTotal)
         Me.Controls.Add(Me.btnTestScoreAverage)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btnRandomNumber)
         Me.Controls.Add(Me.btnPopulationProgram)
         Me.Controls.Add(Me.btnDistanceCalculator)
         Me.Controls.Add(Me.btnSumOfNumbers)
@@ -164,7 +165,7 @@ Partial Class Menu1
     Friend WithEvents btnSumOfNumbers As System.Windows.Forms.Button
     Friend WithEvents btnDistanceCalculator As System.Windows.Forms.Button
     Friend WithEvents btnPopulationProgram As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnRandomNumber As System.Windows.Forms.Button
     Friend WithEvents btnTestScoreAverage As System.Windows.Forms.Button
     Friend WithEvents btnRunningTotal As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button

@@ -45,4 +45,9 @@ Public Class Menu1
         Dim box = New PopulationProgram()
         box.Show()
     End Sub
+
+    Private Sub btnRandomNumber_Click(sender As Object, e As EventArgs) Handles btnRandomNumber.Click
+        Dim box = New Random_Number_Guessing_Game()
+        box.Show()
+    End Sub
 End Class
