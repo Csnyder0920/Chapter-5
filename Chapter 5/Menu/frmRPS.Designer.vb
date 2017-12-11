@@ -165,7 +165,7 @@ Partial Class frmRPS
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnShoot)
         Me.Name = "frmRPS"
-        Me.Text = "Form1"
+        Me.Text = "Rock, Paper, Scissors!"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

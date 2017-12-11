@@ -21,6 +21,8 @@
         cmbOrganisms.Text = String.Empty
         cmbDays.Text = String.Empty
         txtIncrease.Text = String.Empty
+        lstOutput.Items.Clear()
+
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
