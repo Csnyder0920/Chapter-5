@@ -10,8 +10,8 @@
 
         lstOutput.Items.Add(intCount.ToString + " " + dblTotal.ToString)
 
-        For intCount = intCount + 1 To cboDays.Text
-            dblTotal = CDbl(txtIncrease.Text * dblTotal) / 100) + dblTotal 
+        For intCount = intCount + 1 To cmbDays.Text
+            dblTotal = (CDbl(txtIncrease.Text * dblTotal) / 100) + dblTotal
             lstOutput.Items.Add(intCount.ToString + " " + dblTotal.ToString)
         Next
 
