@@ -1,25 +1,27 @@
 ﻿Public Class SumOfNumbers
-
+    Dim strUserInput
+    Dim IntUserInput As Integer
+    Dim i As Integer
 
     Private Sub btnEnter_Click(sender As Object, e As EventArgs) Handles btnEnter.Click
-        Dim strUserInput
-        Dim IntUserInput As Integer
-        Dim intCount As Integer = 0
-        Dim intNumScore As Integer
+        strUserInput = InputBox("Enter a positive integer value", "Input Needed", 10)
+        If strUserInput <> String.Empty Then
+            Try
+                intUserInput = CInt(strUserInput)
+                If IntUserInput < 0 Then
+                    MessageBox.Show("Negative numbers are not accepted.")
+                    Exit Sub
+                End If
 
-        strUserInput = InputBox("Enter a positive integer value", "Input Needed", "10")
-        If Integer.TryParse(strUserInput, IntUserInput) Then
-            If IntUserInput < 0 Then
-                MessageBox.Show("Please input a positive number.")
-            Else
-                Do Until intCount = IntUserInput
-                    strUserInput += 1
-                    intNumScore += intCount
-                Loop
-                MessageBox.Show("The sum of the numbers 1 through " & " is " & intNumScore)
-            End If
+                'IntUserInput = (IntUserInput + i)
+                MessageBox.Show("Sum of Numbers", "The sum of numbers" & (i + IntUserInput), MessageBoxButtons.OK)
+            Catch ex As Exception
+                MessageBox.Show("Quantity amount must be numeric.")
+            End Try
+            'Show messagebox,
         Else
-            MessageBox.Show("Please input a valid number.")
+            MessageBox.Show("Incorrect input", "You must enter a positive integer value", MessageBoxButtons.OK)
+            Exit Sub
         End If
     End Sub
 

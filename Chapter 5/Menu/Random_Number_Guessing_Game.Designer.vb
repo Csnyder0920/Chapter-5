@@ -26,12 +26,15 @@ Partial Class Random_Number_Guessing_Game
         Me.txtNumber = New System.Windows.Forms.TextBox()
         Me.btnPlay = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnNew = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblWins = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(78, 114)
+        Me.Label1.Location = New System.Drawing.Point(80, 57)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(112, 13)
         Me.Label1.TabIndex = 0
@@ -39,14 +42,14 @@ Partial Class Random_Number_Guessing_Game
         '
         'txtNumber
         '
-        Me.txtNumber.Location = New System.Drawing.Point(219, 111)
+        Me.txtNumber.Location = New System.Drawing.Point(221, 54)
         Me.txtNumber.Name = "txtNumber"
         Me.txtNumber.Size = New System.Drawing.Size(100, 20)
         Me.txtNumber.TabIndex = 1
         '
         'btnPlay
         '
-        Me.btnPlay.Location = New System.Drawing.Point(72, 187)
+        Me.btnPlay.Location = New System.Drawing.Point(83, 159)
         Me.btnPlay.Name = "btnPlay"
         Me.btnPlay.Size = New System.Drawing.Size(109, 46)
         Me.btnPlay.TabIndex = 2
@@ -55,18 +58,47 @@ Partial Class Random_Number_Guessing_Game
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(219, 187)
+        Me.btnExit.Location = New System.Drawing.Point(221, 159)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(109, 46)
         Me.btnExit.TabIndex = 3
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'btnNew
+        '
+        Me.btnNew.Location = New System.Drawing.Point(152, 211)
+        Me.btnNew.Name = "btnNew"
+        Me.btnNew.Size = New System.Drawing.Size(109, 46)
+        Me.btnNew.TabIndex = 4
+        Me.btnNew.Text = "New Game"
+        Me.btnNew.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(129, 109)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(86, 13)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Number of Wins:"
+        '
+        'lblWins
+        '
+        Me.lblWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblWins.Location = New System.Drawing.Point(221, 108)
+        Me.lblWins.Name = "lblWins"
+        Me.lblWins.Size = New System.Drawing.Size(43, 23)
+        Me.lblWins.TabIndex = 6
+        '
         'Random_Number_Guessing_Game
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(426, 292)
+        Me.ClientSize = New System.Drawing.Size(426, 272)
+        Me.Controls.Add(Me.lblWins)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btnNew)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnPlay)
         Me.Controls.Add(Me.txtNumber)
@@ -81,4 +113,7 @@ Partial Class Random_Number_Guessing_Game
     Friend WithEvents txtNumber As System.Windows.Forms.TextBox
     Friend WithEvents btnPlay As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents btnNew As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblWins As System.Windows.Forms.Label
 End Class

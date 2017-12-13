@@ -28,6 +28,7 @@ Partial Class frmRaceCar
         Me.picCar3 = New System.Windows.Forms.PictureBox()
         Me.picCar4 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.lblRedWins = New System.Windows.Forms.Label()
         Me.lblBlueWins = New System.Windows.Forms.Label()
@@ -91,6 +92,7 @@ Partial Class frmRaceCar
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.GroupBox1.Controls.Add(Me.btnExit)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.btnRace)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 392)
@@ -98,6 +100,15 @@ Partial Class frmRaceCar
         Me.GroupBox1.Size = New System.Drawing.Size(438, 112)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
+        '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(40, 65)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.TabIndex = 14
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
@@ -110,9 +121,9 @@ Partial Class frmRaceCar
         Me.GroupBox2.Controls.Add(Me.Label3)
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Location = New System.Drawing.Point(166, 18)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Size = New System.Drawing.Size(252, 89)
         Me.GroupBox2.TabIndex = 13
         Me.GroupBox2.TabStop = False
@@ -275,4 +286,5 @@ Partial Class frmRaceCar
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents btnExit As System.Windows.Forms.Button
 End Class
